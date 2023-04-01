@@ -7,6 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1700764B29C49F2900469A47 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700764A29C49F2900469A47 /* ListView.swift */; };
+		1700764D29C49F6700469A47 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700764C29C49F6700469A47 /* ListViewModel.swift */; };
+		1700764F29C4A26100469A47 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700764E29C4A26100469A47 /* Achievement.swift */; };
+		1700765129C4A29700469A47 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700765029C4A29700469A47 /* Activity.swift */; };
+		1700765329C4A2A200469A47 /* New.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700765229C4A2A200469A47 /* New.swift */; };
+		1700765929C4A30B00469A47 /* AchievementDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700765829C4A30B00469A47 /* AchievementDetailView.swift */; };
+		1700765B29C4A31B00469A47 /* ActivityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700765A29C4A31B00469A47 /* ActivityDetailView.swift */; };
+		1700765D29C4A32A00469A47 /* NearestSessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700765C29C4A32A00469A47 /* NearestSessionDetailView.swift */; };
+		1700766229C4AF2400469A47 /* SessionCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700766129C4AF2400469A47 /* SessionCellView.swift */; };
+		1700766429C4AFF600469A47 /* AchievementCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700766329C4AFF600469A47 /* AchievementCellView.swift */; };
+		1700766629C9F13800469A47 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700766529C9F13800469A47 /* RegisterView.swift */; };
+		1700766829C9F14500469A47 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700766729C9F14500469A47 /* LoginView.swift */; };
+		1700766A29C9F30C00469A47 /* RegisterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700766929C9F30B00469A47 /* RegisterManager.swift */; };
+		1700766C29C9F96D00469A47 /* ActivityCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700766B29C9F96D00469A47 /* ActivityCellView.swift */; };
+		1700766E29C9FB4B00469A47 /* NewsCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700766D29C9FB4B00469A47 /* NewsCellView.swift */; };
+		1700767029C9FC1A00469A47 /* NewsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700766F29C9FC1A00469A47 /* NewsDetailView.swift */; };
+		1700767429CB35DD00469A47 /* SessionCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700767329CB35DD00469A47 /* SessionCreationView.swift */; };
+		1700767629CB35F100469A47 /* ActivityCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700767529CB35F100469A47 /* ActivityCreationView.swift */; };
+		1700767829CB360200469A47 /* ActivityResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700767729CB360200469A47 /* ActivityResponseView.swift */; };
+		1700767A29CB360F00469A47 /* SessionResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700767929CB360F00469A47 /* SessionResponseView.swift */; };
+		1700767C29CB361A00469A47 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700767B29CB361A00469A47 /* UsersView.swift */; };
+		1700767E29CB379200469A47 /* AdminPannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700767D29CB379200469A47 /* AdminPannelView.swift */; };
+		1700768029CB37A700469A47 /* ClientPannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700767F29CB37A700469A47 /* ClientPannelView.swift */; };
+		1700768329CFBB2300469A47 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700768229CFBB2300469A47 /* User.swift */; };
+		1700768529CFBF0300469A47 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700768429CFBF0300469A47 /* Token.swift */; };
+		1700768729CFD78400469A47 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700768629CFD78400469A47 /* APIManager.swift */; };
+		1776C9EA29D70F070032B002 /* UserCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776C9E929D70F070032B002 /* UserCellView.swift */; };
+		1776C9ED29D745C80032B002 /* AddSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776C9EC29D745C80032B002 /* AddSessionView.swift */; };
+		1776C9EF29D781C30032B002 /* SessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776C9EE29D781C30032B002 /* SessionViewModel.swift */; };
+		1776C9F129D79B350032B002 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776C9F029D79B350032B002 /* AddTaskView.swift */; };
+		1776C9F329D79B4F0032B002 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776C9F229D79B4F0032B002 /* TaskViewModel.swift */; };
+		1776C9F529D7C7200032B002 /* NewsAdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776C9F429D7C7200032B002 /* NewsAdditionView.swift */; };
+		1776C9F729D7C8A60032B002 /* AddNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776C9F629D7C8A60032B002 /* AddNewView.swift */; };
+		1776C9F929D7C8DF0032B002 /* NewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776C9F829D7C8DF0032B002 /* NewViewModel.swift */; };
+		1776C9FB29D7CE1C0032B002 /* ResponseCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776C9FA29D7CE1C0032B002 /* ResponseCellView.swift */; };
+		1776C9FD29D7CE550032B002 /* ActivityResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776C9FC29D7CE550032B002 /* ActivityResponse.swift */; };
+		1776C9FF29D7D9280032B002 /* BookingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776C9FE29D7D9280032B002 /* BookingResponse.swift */; };
+		1776CA0129D7D9C80032B002 /* BookingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776CA0029D7D9C80032B002 /* BookingCellView.swift */; };
+		1776CA0329D7F7F00032B002 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776CA0229D7F7EF0032B002 /* ProfileView.swift */; };
+		1776CA0529D7FDD70032B002 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776CA0429D7FDD70032B002 /* UserView.swift */; };
 		17FD7A732986CF5300955541 /* EC_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD7A722986CF5300955541 /* EC_AppApp.swift */; };
 		17FD7A752986CF5300955541 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD7A742986CF5300955541 /* ContentView.swift */; };
 		17FD7A772986CF5600955541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FD7A762986CF5600955541 /* Assets.xcassets */; };
@@ -16,12 +56,51 @@
 		17FD7A892986D1DD00955541 /* ActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD7A882986D1DD00955541 /* ActivitiesView.swift */; };
 		17FD7A8B2986D1FD00955541 /* NearestSessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD7A8A2986D1FC00955541 /* NearestSessionsView.swift */; };
 		17FD7A8D2986D21400955541 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD7A8C2986D21400955541 /* NewsView.swift */; };
-		17FD7A8F2986D43800955541 /* ArchiveSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD7A8E2986D43800955541 /* ArchiveSessionView.swift */; };
 		17FD7A922986D7C100955541 /* SessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD7A912986D7C100955541 /* SessionDetailView.swift */; };
 		17FD7A952986DD5600955541 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD7A942986DD5600955541 /* Session.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1700764A29C49F2900469A47 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		1700764C29C49F6700469A47 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		1700764E29C4A26100469A47 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		1700765029C4A29700469A47 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		1700765229C4A2A200469A47 /* New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New.swift; sourceTree = "<group>"; };
+		1700765829C4A30B00469A47 /* AchievementDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementDetailView.swift; sourceTree = "<group>"; };
+		1700765A29C4A31B00469A47 /* ActivityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailView.swift; sourceTree = "<group>"; };
+		1700765C29C4A32A00469A47 /* NearestSessionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestSessionDetailView.swift; sourceTree = "<group>"; };
+		1700766129C4AF2400469A47 /* SessionCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCellView.swift; sourceTree = "<group>"; };
+		1700766329C4AFF600469A47 /* AchievementCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementCellView.swift; sourceTree = "<group>"; };
+		1700766529C9F13800469A47 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		1700766729C9F14500469A47 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1700766929C9F30B00469A47 /* RegisterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterManager.swift; sourceTree = "<group>"; };
+		1700766B29C9F96D00469A47 /* ActivityCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCellView.swift; sourceTree = "<group>"; };
+		1700766D29C9FB4B00469A47 /* NewsCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCellView.swift; sourceTree = "<group>"; };
+		1700766F29C9FC1A00469A47 /* NewsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailView.swift; sourceTree = "<group>"; };
+		1700767329CB35DD00469A47 /* SessionCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCreationView.swift; sourceTree = "<group>"; };
+		1700767529CB35F100469A47 /* ActivityCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCreationView.swift; sourceTree = "<group>"; };
+		1700767729CB360200469A47 /* ActivityResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityResponseView.swift; sourceTree = "<group>"; };
+		1700767929CB360F00469A47 /* SessionResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionResponseView.swift; sourceTree = "<group>"; };
+		1700767B29CB361A00469A47 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		1700767D29CB379200469A47 /* AdminPannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPannelView.swift; sourceTree = "<group>"; };
+		1700767F29CB37A700469A47 /* ClientPannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientPannelView.swift; sourceTree = "<group>"; };
+		1700768229CFBB2300469A47 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1700768429CFBF0300469A47 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		1700768629CFD78400469A47 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		1776C9E929D70F070032B002 /* UserCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellView.swift; sourceTree = "<group>"; };
+		1776C9EC29D745C80032B002 /* AddSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSessionView.swift; sourceTree = "<group>"; };
+		1776C9EE29D781C30032B002 /* SessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewModel.swift; sourceTree = "<group>"; };
+		1776C9F029D79B350032B002 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		1776C9F229D79B4F0032B002 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		1776C9F429D7C7200032B002 /* NewsAdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAdditionView.swift; sourceTree = "<group>"; };
+		1776C9F629D7C8A60032B002 /* AddNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewView.swift; sourceTree = "<group>"; };
+		1776C9F829D7C8DF0032B002 /* NewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewModel.swift; sourceTree = "<group>"; };
+		1776C9FA29D7CE1C0032B002 /* ResponseCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseCellView.swift; sourceTree = "<group>"; };
+		1776C9FC29D7CE550032B002 /* ActivityResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityResponse.swift; sourceTree = "<group>"; };
+		1776C9FE29D7D9280032B002 /* BookingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingResponse.swift; sourceTree = "<group>"; };
+		1776CA0029D7D9C80032B002 /* BookingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingCellView.swift; sourceTree = "<group>"; };
+		1776CA0229D7F7EF0032B002 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1776CA0429D7FDD70032B002 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		17FD7A6F2986CF5300955541 /* EC_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EC_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FD7A722986CF5300955541 /* EC_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EC_AppApp.swift; sourceTree = "<group>"; };
 		17FD7A742986CF5300955541 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,7 +111,6 @@
 		17FD7A882986D1DD00955541 /* ActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesView.swift; sourceTree = "<group>"; };
 		17FD7A8A2986D1FC00955541 /* NearestSessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestSessionsView.swift; sourceTree = "<group>"; };
 		17FD7A8C2986D21400955541 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
-		17FD7A8E2986D43800955541 /* ArchiveSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveSessionView.swift; sourceTree = "<group>"; };
 		17FD7A912986D7C100955541 /* SessionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailView.swift; sourceTree = "<group>"; };
 		17FD7A942986DD5600955541 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,6 +126,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1700765529C4A2C200469A47 /* UtilityViews */ = {
+			isa = PBXGroup;
+			children = (
+				1700764A29C49F2900469A47 /* ListView.swift */,
+			);
+			path = UtilityViews;
+			sourceTree = "<group>";
+		};
+		1700765629C4A2DD00469A47 /* DetailViews */ = {
+			isa = PBXGroup;
+			children = (
+				17FD7A912986D7C100955541 /* SessionDetailView.swift */,
+				1700765829C4A30B00469A47 /* AchievementDetailView.swift */,
+				1700765A29C4A31B00469A47 /* ActivityDetailView.swift */,
+				1700765C29C4A32A00469A47 /* NearestSessionDetailView.swift */,
+				1700766F29C9FC1A00469A47 /* NewsDetailView.swift */,
+			);
+			path = DetailViews;
+			sourceTree = "<group>";
+		};
+		1700766029C4AF1500469A47 /* CellViews */ = {
+			isa = PBXGroup;
+			children = (
+				1700766129C4AF2400469A47 /* SessionCellView.swift */,
+				1700766329C4AFF600469A47 /* AchievementCellView.swift */,
+				1700766B29C9F96D00469A47 /* ActivityCellView.swift */,
+				1700766D29C9FB4B00469A47 /* NewsCellView.swift */,
+				1776C9E929D70F070032B002 /* UserCellView.swift */,
+				1776C9FA29D7CE1C0032B002 /* ResponseCellView.swift */,
+				1776CA0029D7D9C80032B002 /* BookingCellView.swift */,
+			);
+			path = CellViews;
+			sourceTree = "<group>";
+		};
+		1700767129CB35A100469A47 /* ClientPages */ = {
+			isa = PBXGroup;
+			children = (
+				17FD7A842986D08100955541 /* SessionHistoryView.swift */,
+				17FD7A862986D0F000955541 /* AchievementsView.swift */,
+				17FD7A882986D1DD00955541 /* ActivitiesView.swift */,
+				17FD7A8A2986D1FC00955541 /* NearestSessionsView.swift */,
+				17FD7A8C2986D21400955541 /* NewsView.swift */,
+				1700767F29CB37A700469A47 /* ClientPannelView.swift */,
+				1776CA0229D7F7EF0032B002 /* ProfileView.swift */,
+			);
+			path = ClientPages;
+			sourceTree = "<group>";
+		};
+		1700767229CB35C100469A47 /* AdminPages */ = {
+			isa = PBXGroup;
+			children = (
+				1700767329CB35DD00469A47 /* SessionCreationView.swift */,
+				1700767529CB35F100469A47 /* ActivityCreationView.swift */,
+				1700767729CB360200469A47 /* ActivityResponseView.swift */,
+				1700767929CB360F00469A47 /* SessionResponseView.swift */,
+				1700767B29CB361A00469A47 /* UsersView.swift */,
+				1700767D29CB379200469A47 /* AdminPannelView.swift */,
+				1776C9F429D7C7200032B002 /* NewsAdditionView.swift */,
+				1776CA0429D7FDD70032B002 /* UserView.swift */,
+			);
+			path = AdminPages;
+			sourceTree = "<group>";
+		};
+		1700768129CB388A00469A47 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				17FD7A942986DD5600955541 /* Session.swift */,
+				1700764E29C4A26100469A47 /* Achievement.swift */,
+				1700765029C4A29700469A47 /* Activity.swift */,
+				1700765229C4A2A200469A47 /* New.swift */,
+				1700768229CFBB2300469A47 /* User.swift */,
+				1700768429CFBF0300469A47 /* Token.swift */,
+				1776C9FC29D7CE550032B002 /* ActivityResponse.swift */,
+				1776C9FE29D7D9280032B002 /* BookingResponse.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1776C9EB29D745B50032B002 /* AddViews */ = {
+			isa = PBXGroup;
+			children = (
+				1776C9EC29D745C80032B002 /* AddSessionView.swift */,
+				1776C9F029D79B350032B002 /* AddTaskView.swift */,
+				1776C9F629D7C8A60032B002 /* AddNewView.swift */,
+			);
+			path = AddViews;
+			sourceTree = "<group>";
+		};
 		17FD7A662986CF5300955541 = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +236,6 @@
 				17FD7A932986DD3400955541 /* Model */,
 				17FD7A742986CF5300955541 /* ContentView.swift */,
 				17FD7A812986CFD000955541 /* Views */,
-				17FD7A802986CFB100955541 /* Pages */,
 				17FD7A722986CF5300955541 /* EC_AppApp.swift */,
 				17FD7A762986CF5600955541 /* Assets.xcassets */,
 				17FD7A782986CF5600955541 /* Preview Content */,
@@ -89,12 +254,10 @@
 		17FD7A802986CFB100955541 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				17FD7A842986D08100955541 /* SessionHistoryView.swift */,
-				17FD7A862986D0F000955541 /* AchievementsView.swift */,
-				17FD7A882986D1DD00955541 /* ActivitiesView.swift */,
-				17FD7A8A2986D1FC00955541 /* NearestSessionsView.swift */,
-				17FD7A8C2986D21400955541 /* NewsView.swift */,
-				17FD7A912986D7C100955541 /* SessionDetailView.swift */,
+				1700767229CB35C100469A47 /* AdminPages */,
+				1700767129CB35A100469A47 /* ClientPages */,
+				1700766529C9F13800469A47 /* RegisterView.swift */,
+				1700766729C9F14500469A47 /* LoginView.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -102,7 +265,11 @@
 		17FD7A812986CFD000955541 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				17FD7A8E2986D43800955541 /* ArchiveSessionView.swift */,
+				1776C9EB29D745B50032B002 /* AddViews */,
+				1700766029C4AF1500469A47 /* CellViews */,
+				1700765629C4A2DD00469A47 /* DetailViews */,
+				17FD7A802986CFB100955541 /* Pages */,
+				1700765529C4A2C200469A47 /* UtilityViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -110,7 +277,13 @@
 		17FD7A932986DD3400955541 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				17FD7A942986DD5600955541 /* Session.swift */,
+				1776C9F829D7C8DF0032B002 /* NewViewModel.swift */,
+				1776C9F229D79B4F0032B002 /* TaskViewModel.swift */,
+				1776C9EE29D781C30032B002 /* SessionViewModel.swift */,
+				1700768629CFD78400469A47 /* APIManager.swift */,
+				1700766929C9F30B00469A47 /* RegisterManager.swift */,
+				1700764C29C49F6700469A47 /* ListViewModel.swift */,
+				1700768129CB388A00469A47 /* Data */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,16 +358,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1700765329C4A2A200469A47 /* New.swift in Sources */,
+				1776C9FD29D7CE550032B002 /* ActivityResponse.swift in Sources */,
+				1700766629C9F13800469A47 /* RegisterView.swift in Sources */,
 				17FD7A952986DD5600955541 /* Session.swift in Sources */,
+				1776CA0129D7D9C80032B002 /* BookingCellView.swift in Sources */,
+				1776C9FF29D7D9280032B002 /* BookingResponse.swift in Sources */,
+				1776C9FB29D7CE1C0032B002 /* ResponseCellView.swift in Sources */,
+				1776C9ED29D745C80032B002 /* AddSessionView.swift in Sources */,
 				17FD7A872986D0F000955541 /* AchievementsView.swift in Sources */,
+				1700767829CB360200469A47 /* ActivityResponseView.swift in Sources */,
+				1700767C29CB361A00469A47 /* UsersView.swift in Sources */,
+				1700764D29C49F6700469A47 /* ListViewModel.swift in Sources */,
+				1776C9EA29D70F070032B002 /* UserCellView.swift in Sources */,
+				1776C9F729D7C8A60032B002 /* AddNewView.swift in Sources */,
 				17FD7A922986D7C100955541 /* SessionDetailView.swift in Sources */,
 				17FD7A752986CF5300955541 /* ContentView.swift in Sources */,
+				1700768029CB37A700469A47 /* ClientPannelView.swift in Sources */,
+				1776C9F129D79B350032B002 /* AddTaskView.swift in Sources */,
+				1776C9F929D7C8DF0032B002 /* NewViewModel.swift in Sources */,
+				1776C9F329D79B4F0032B002 /* TaskViewModel.swift in Sources */,
+				1776CA0529D7FDD70032B002 /* UserView.swift in Sources */,
+				1700765D29C4A32A00469A47 /* NearestSessionDetailView.swift in Sources */,
 				17FD7A732986CF5300955541 /* EC_AppApp.swift in Sources */,
 				17FD7A8D2986D21400955541 /* NewsView.swift in Sources */,
-				17FD7A8F2986D43800955541 /* ArchiveSessionView.swift in Sources */,
+				1776C9EF29D781C30032B002 /* SessionViewModel.swift in Sources */,
+				1700767A29CB360F00469A47 /* SessionResponseView.swift in Sources */,
 				17FD7A852986D08100955541 /* SessionHistoryView.swift in Sources */,
+				1700768529CFBF0300469A47 /* Token.swift in Sources */,
+				1700767629CB35F100469A47 /* ActivityCreationView.swift in Sources */,
+				1700765929C4A30B00469A47 /* AchievementDetailView.swift in Sources */,
+				1700766229C4AF2400469A47 /* SessionCellView.swift in Sources */,
+				1700764B29C49F2900469A47 /* ListView.swift in Sources */,
+				1700767429CB35DD00469A47 /* SessionCreationView.swift in Sources */,
+				1700764F29C4A26100469A47 /* Achievement.swift in Sources */,
+				1700766829C9F14500469A47 /* LoginView.swift in Sources */,
 				17FD7A8B2986D1FD00955541 /* NearestSessionsView.swift in Sources */,
+				1700767E29CB379200469A47 /* AdminPannelView.swift in Sources */,
+				1700765129C4A29700469A47 /* Activity.swift in Sources */,
+				1700766C29C9F96D00469A47 /* ActivityCellView.swift in Sources */,
+				1700768729CFD78400469A47 /* APIManager.swift in Sources */,
+				1700765B29C4A31B00469A47 /* ActivityDetailView.swift in Sources */,
+				1776CA0329D7F7F00032B002 /* ProfileView.swift in Sources */,
+				1700766429C4AFF600469A47 /* AchievementCellView.swift in Sources */,
+				1700766E29C9FB4B00469A47 /* NewsCellView.swift in Sources */,
+				1700766A29C9F30C00469A47 /* RegisterManager.swift in Sources */,
 				17FD7A892986D1DD00955541 /* ActivitiesView.swift in Sources */,
+				1700767029C9FC1A00469A47 /* NewsDetailView.swift in Sources */,
+				1700768329CFBB2300469A47 /* User.swift in Sources */,
+				1776C9F529D7C7200032B002 /* NewsAdditionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,8 +541,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,8 +570,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
